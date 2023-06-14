@@ -45,7 +45,7 @@ keyboard.extensions.append(ext)
 # Keycodes can be found on http://kmkfw.io/docs/keycodes
 # Left to right, with the USB port facing right
 keyboard.keymap = [
-    [KC.KP_ENTER, KC.LCTL(KC.v),KC.LCTL(KC.c)]
+    [KC.KP_ENTER, KC.LCTL(KC.v),KC.LCTL(KC.c)]     # this is literally the only thing i changed lol
 ]
 
 if __name__ == '__main__':
